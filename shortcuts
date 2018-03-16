@@ -7,12 +7,14 @@ NERDTREE
   gt              next tab
   gT              previous tab
   t		  open file in a new tab
+  I		  toggle hidden files
+  r		  refresh current directory
 
-Technique for multicursor :
-  /word           search a word press enter and directly : cgn
+Tip for multicursor :
+  /word           search a word
   cgn             change the next match : insert mode
   <esc>		  back to normal mode
-  .               repeat the operation
+  .               repeats the operation
 
 ---------------------------------------------------------------------------------------
 

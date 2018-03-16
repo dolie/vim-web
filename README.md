@@ -4,7 +4,7 @@ Vim 8 enhanced for web development. Light, minimal and configured.
 ## Intro
 Gives Vim 8 basic functionalities for web development :
 - file tree (uses [NerdTree][1])
-- info bar (uses [Airline][2]
+- info bar (uses [Airline][2])
 - syntax highlighting (uses [Polyglot][3])
 - syntax error checking (uses [Syntastic][4])
 - git support (uses [GitGutter][5] and [Fugitive][6])
