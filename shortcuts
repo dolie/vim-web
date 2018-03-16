@@ -1,10 +1,4 @@
-FIREFOX
-  '               search through links
-  cmd + g         next result
-  cmd + k         search bar
-
 VIM
-
   vi .            open the directory in vi, and set the directory as a 'project' (cwd)
   ctrl + ww       move focus through windows
 
@@ -14,11 +8,10 @@ NERDTREE
   gT              previous tab
   t		  open file in a new tab
 
-  *               search all occurence of the word after the cursor
-
-Technique for multicursor change after :
-  /word               search a word press enter and directly : cgn
-  cgn             change the next match, enter insert mode
+Technique for multicursor :
+  /word           search a word press enter and directly : cgn
+  cgn             change the next match : insert mode
+  <esc>		  back to normal mode
   .               repeat the operation
 
 ---------------------------------------------------------------------------------------
@@ -170,6 +163,7 @@ Search and replace
     /pattern - search for pattern
     ?pattern - search backward for pattern
     \vpattern - 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)
+    * - search the word under the cursor
     n - repeat search in same direction
     N - repeat search in opposite direction
     :%s/old/new/g - replace all old with new throughout file
