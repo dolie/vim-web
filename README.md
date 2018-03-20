@@ -18,10 +18,13 @@ Install Vim 8 (if it is not already done) then :
 ```
 npm install -g eslint csslint jsonlint eslint-plugin-vue
 git clone https://github.com/dolie/vim-web ~/.vim
+cd ~/.vim/
+git submodule init
+git submodule update
 ln -s ~/.vim/.vimrc ~/.vimrc
 ln -s ~/.vim/.eslintrc.json ~/.eslintrc.json
 ln -s ~/.vim/.editorconfig ~/.editorconfig
-vim
+vi
 ```
 
 [1]: https://github.com/scrooloose/nerdtree
