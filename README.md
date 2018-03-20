@@ -17,7 +17,7 @@ All has been configured as my personal taste. You can edit them in `.vimrc` `.es
 Install Vim 8 (if it is not already done) then :
 ```
 npm install -g eslint csslint jsonlint eslint-plugin-vue
-git clone https://github.com/lafenouille/vim-web ~/.vim
+git clone https://github.com/dolie/vim-web ~/.vim
 ln -s ~/.vim/.vimrc ~/.vimrc
 ln -s ~/.vim/.eslintrc.json ~/.eslintrc.json
 ln -s ~/.vim/.editorconfig ~/.editorconfig
