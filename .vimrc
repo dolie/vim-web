@@ -20,6 +20,7 @@ syntax on
 "Nerdtree
 noremap ' :NERDTreeToggle<CR>
 let g:NERDTreeChDirMode=0
+let NERDTreeQuitOnOpen=1
 
 "Airline
 if !exists('g:airline_symbols')
