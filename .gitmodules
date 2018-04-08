@@ -19,3 +19,6 @@
 [submodule "pack/default/start/vim-polyglot"]
 	path = pack/default/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
+[submodule "pack/default/start/vim-closer"]
+	path = pack/default/start/vim-closer
+	url = https://github.com/rstacruz/vim-closer.git

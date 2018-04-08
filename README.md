@@ -10,6 +10,7 @@ Gives Vim 8 basic functionalities for web development :
 - git support (uses [GitGutter][5] and [Fugitive][6])
 - support coding conventions (uses [EditorConfig][7])
 - multicursor ([native macro & 'cgn'][8])
+- auto smart closing brackets/parenthesis... (uses [vim-closer][9])
 
 All has been configured as my personal taste. You can edit them in `.vimrc` `.eslintrc.json` `.editorconfig`
 
@@ -35,3 +36,4 @@ vi
 [6]: https://github.com/tpope/vim-fugitive
 [7]: https://github.com/sgur/vim-editorconfig
 [8]: https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db
+[9]: https://github.com/rstacruz/vim-closer
