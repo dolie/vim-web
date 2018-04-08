@@ -3,6 +3,10 @@
 "Line numbers are visibles
 set number
 
+"set color to 256
+set t_Co=256
+set term=xterm-256color
+
 "Blinking block in normal mode, Blinking bar in insert mode
 let &t_SI = "\e[5 q"
 let &t_EI = "\e[1 q"
@@ -52,7 +56,7 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_js_checkers = ['eslint']
