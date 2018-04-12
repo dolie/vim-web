@@ -1,5 +1,8 @@
 " <-General Config->
 
+"autoindent and smartindant
+filetype plugin indent on
+
 "Line numbers are visibles
 set number
 
